@@ -1,6 +1,6 @@
 # Cropselect for Kirby 3
 
-This is a visual crop selector for Kirby 3. You can select from the 9 different crop positions and use it in your template like that:
+This is a visual crop selector for Kirby 3. You can select from 9 different crop positions and use it in your template like that:
 
 ```php
 $image->crop(100, 200, $image->cropselect());
