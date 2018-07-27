@@ -15,7 +15,7 @@ Template:
 $image->crop(100, 200, $image->cropselect()->value());
 ```
 
-![Preview](https://user-images.githubusercontent.com/7975568/43335242-2d573a96-91cf-11e8-9252-e72e595901e2.gif)
+![Preview](https://user-images.githubusercontent.com/7975568/43335873-3fba4ad8-91d0-11e8-8604-0755b2655a58.gif)
 
 ## Installation
 
