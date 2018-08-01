@@ -13,7 +13,7 @@ panel.plugin("medienbaecker/cropselect", {
           }
         },
         template: `
-          <kirby-field v-bind="$props" class="kirby-cropselect-field">
+          <k-field v-bind="$props" class="kirby-cropselect-field">
             <div class="image" v-if="image">
               <img :src="image"/>
               <div class="radios">
@@ -31,10 +31,10 @@ panel.plugin("medienbaecker/cropselect", {
                 </label>
               </div>
             </div>
-            <kirby-box v-else>
+            <k-box v-else>
               That's not an image!
-            </kirby-box>
-          </kirby-field>
+            </k-box>
+          </k-field>
         `
       }
     }
