@@ -12,7 +12,7 @@ fields:
 
 ### Template:
 ```php
-$image->crop(100, 200, $image->cropselect()->value());
+$image->crop(100, 200, $image->cropselect());
 ```
 
 ### Preview:
