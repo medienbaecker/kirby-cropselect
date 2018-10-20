@@ -7,14 +7,6 @@ Kirby::plugin('medienbaecker/cropselect', [
                 'value' => function ($value = "center") {
                     return $value;
                 },
-                'image' => function() {
-                    if($this->model()->type() == "image") {
-                        return $this->model()->url();
-                    }
-                    else {
-                        return false;
-                    }
-                },
                 'options' => function() {
                     return [
                         "top left",
@@ -30,7 +22,15 @@ Kirby::plugin('medienbaecker/cropselect', [
                 }
             ],
             'computed' => [
-                
+                'image' => function() {
+
+                    if($this->model()->type() == "image") {
+                        return $this->model()->url();
+                    }
+                    else {
+                        return false;
+                    }
+                },
             ]
         ]
     ]
